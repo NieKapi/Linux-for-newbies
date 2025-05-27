@@ -4,59 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linux for Newbies</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      display: grid;
-      grid-template-areas:
-        "header header"
-        "sidebar main"
-        "footer footer";
-      grid-template-rows: 60px 1fr 40px;
-      grid-template-columns: 200px 1fr;
-      height: 100vh;
-    }
-
-    header {
-      grid-area: header;
-      background: #333;
-      color: white;
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-    }
-
-    nav {
-      grid-area: sidebar;
-      background: #f4f4f4;
-      padding: 20px;
-    }
-
-    main {
-      grid-area: main;
-      padding: 20px;
-    }
-
-    footer {
-      grid-area: footer;
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-    }
-
-    nav a {
-      display: block;
-      margin-bottom: 10px;
-      color: #333;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -77,4 +25,3 @@
   </footer>
 </body>
 </html>
-
