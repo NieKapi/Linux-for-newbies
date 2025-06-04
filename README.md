@@ -9,4 +9,4 @@ site is going to have a lot of helpfull guides and funfacts
 
 its really early and for now there is not much
 
-site made by LNfN *(NieKapi, TheMatrix203)*
+site made by LNfN *(NieKapi)*
